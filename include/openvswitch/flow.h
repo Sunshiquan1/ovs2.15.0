@@ -63,7 +63,7 @@ BUILD_ASSERT_DECL(FLOW_TNL_F_OAM == NX_TUN_FLAG_OAM);
 const char *flow_tun_flag_to_string(uint32_t flags);
 
 /* Maximum number of supported MPLS labels. */
-#define FLOW_MAX_MPLS_LABELS 3
+#define FLOW_MAX_MPLS_LABELS 6
 
 /* Maximum number of supported SAMPLE action nesting. */
 #define FLOW_MAX_SAMPLE_NESTING 10
